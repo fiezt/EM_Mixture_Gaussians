@@ -213,9 +213,7 @@ def em_mixture(data, num_components, num_examples, num_features):
 
 
 def main():
-    """Read in data and perform EM on data, before writing component information.
-
-    """
+    """Read in data and perform EM on data, before writing component information."""
 
     # Get command line args.
     args = sys.argv
