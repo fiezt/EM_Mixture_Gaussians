@@ -4,7 +4,7 @@ Implementation of the Expectation-Maximization Algorithm for a Mixture of Gaussi
 # Running Instructions
 The data file should be in the same directory of gaussmix.py and as where it is being run from. The syntax is as follows:
 
-python gaussmix.py <# number of components> < name of data file> < name of output file> <br />
+python gaussmix.py <# number of components> <name of data file> <name of output file> <br />
 
 An example to run the algorithm on the training data:
 
