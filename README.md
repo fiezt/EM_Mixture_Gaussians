@@ -1,12 +1,11 @@
 # EM_Mixture_Gaussians
-Implementation of the Expectation-Maximization Algorithm for a Mixture of Gaussians for the wine data set from the UCI repository. 
+Implementation of the Expectation-Maximization Algorithm for a Mixture of Gaussians for the wine data set from the UCI repository which can also be found at: https://archive.ics.uci.edu/ml/datasets/Wine. 
 
 To run this program do as follows.
 
 python gaussmix.py <# number of components> <name of data file> <name of output file>
 
-The data file should be in the same directory of gaussmix.py and as where it
-is being run from.
+The data file should be in the same directory of gaussmix.py and as where it is being run from.
 
 An example is as follows:
 
