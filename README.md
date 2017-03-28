@@ -2,12 +2,11 @@
 Implementation of the Expectation-Maximization Algorithm for a Mixture of Gaussians for the wine data set from the UCI repository which can also be found at: https://archive.ics.uci.edu/ml/datasets/Wine. 
 
 # Running Instructions
+The data file should be in the same directory of gaussmix.py and as where it is being run from. The syntax is as follows:
 
 python gaussmix.py <# number of components> < name of data file> < name of output file> <br />
 
-The data file should be in the same directory of gaussmix.py and as where it is being run from.
-
-An example is as follows:
+An example to run the algorithm on the training data:
 
 python gaussmix.py 3 wine.train.txt output.csv
 
